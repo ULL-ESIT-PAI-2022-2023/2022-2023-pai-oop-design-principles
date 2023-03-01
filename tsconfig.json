@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "allowJs": true,
+    "rootDir": "./",
+    "outDir": "./dist",
+    "declaration": true,                      /* Generates corresponding '.d.ts' file. Similar to .h files in C++.*/
+    "alwaysStrict": true,                     /* Parse in strict mode and emit "use strict" for each source file. */
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "forceConsistentCasingInFileNames": true, /* Force all file names to have the same case style. */
+    "noImplicitReturns": true,                /* Report error when not all code paths in function return a value. */
+    "noFallthroughCasesInSwitch": true,      /* Report errors for fallthrough cases in switch statement. */
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "lib",
+    "test",
+    "public"
+  ]
+}
