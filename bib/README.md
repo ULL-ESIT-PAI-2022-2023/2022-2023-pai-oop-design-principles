@@ -1,3 +1,5 @@
 # Bibliography
 
-Include in this directory all references and additional material used in your project
+Bibliography for this presentation:
+- https://en.wikipedia.org/wiki/Code_smell
+- https://en.wikipedia.org/wiki/Shotgun_surgery
