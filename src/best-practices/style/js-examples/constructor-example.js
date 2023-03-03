@@ -14,15 +14,15 @@
 'use strict';
 
 class Shape {
-  constructor(x, y) {
-    this.x_ = x;
-    this.y_ = y;
+  constructor(positionX, positionY) {
+    this.positionX_ = positionX;
+    this.positionY_ = positionY;
   }
 }
 
 class Rectangle extends Shape {
-  constructor(x, y, width, height) {
-    super(x, y);
+  constructor(positionX, positionY, width, height) {
+    super(positionX, positionY);
     this.width = width;
     this.height = height;
   }
