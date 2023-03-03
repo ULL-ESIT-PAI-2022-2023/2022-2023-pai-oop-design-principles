@@ -18,9 +18,9 @@ class AClass {
 
 // Aggregation
 class BClass {
-  constructor(private aClass: AClass) {}
+  constructor(private aClass?: AClass) {}
   sayHi(): void {
-    this.aClass.sayHi();
+    if (this.aClass) this.aClass.sayHi();
   }
 }
 
