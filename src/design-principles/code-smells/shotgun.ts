@@ -12,14 +12,14 @@
  */
 
 function myFunction() {
-  console.log("Entering myFunction");
+  console.log('Entering myFunction');
   /* ... */
 }
 function myFunction2() {
-  console.log("Entering myFunction2");
+  console.log('Entering myFunction2');
   /* ... */
 }
 function myFunction3() {
-  console.log("Entering myFunction3");
+  console.log('Entering myFunction3');
   /* ... */
 }

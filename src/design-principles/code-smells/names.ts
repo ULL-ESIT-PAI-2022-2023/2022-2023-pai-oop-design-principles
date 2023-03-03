@@ -13,6 +13,6 @@
 class DtaRcrd102 {
   private genymdhms: number = 2;
   private modymdhms: number = 3;
-  private pszqint: string = "102";
+  private pszqint: string = '102';
   /* ... */
 };
