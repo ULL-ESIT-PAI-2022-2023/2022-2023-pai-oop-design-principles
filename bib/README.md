@@ -14,3 +14,5 @@ Bibliography for this presentation:
 - https://en.wikipedia.org/wiki/SOLID
 - https://google.github.io/styleguide/tsguide.html
 - https://google.github.io/styleguide/jsguide.html
+- https://www.ionos.com/digitalguide/websites/web-development/code-smell/
+- https://www.ionos.com/digitalguide/websites/web-development/clean-code-principles-advantages-and-examples/
