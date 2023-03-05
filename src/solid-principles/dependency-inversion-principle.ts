@@ -10,32 +10,23 @@
  * @desc Dependency inversion principle example.
  */
 
-/**
- * @desc Interface that defines the methods of a filtered coffee machine.
- */
+/** @desc Interface that defines the methods of a filtered coffee machine. */
 interface FilteredCoffee {
   makeFilteredCoffee(): void;
 }
-
-/**
- * @desc Interface that defines the methods of an espresso coffee machine.
- */
+/** @desc Interface that defines the methods of an espresso coffee machine. */
 interface EspressoCoffee {
   makeEspressoCoffee(): void;
 }
 
-/**
- * @desc Coffee machine that only does filtered coffee.
- */
+/** @desc Coffee machine that only does filtered coffee. */
 class BasicCoffeeMachine implements FilteredCoffee {
   makeFilteredCoffee(): void {
     console.log('Making filtered coffee');
   }
 }
 
-/**
- * @desc Coffee machine that does both filtered and espresso coffee.
- */
+/** @desc Coffee machine that does both filtered and espresso coffee. */
 class PremiumCoffeeMachine implements FilteredCoffee, EspressoCoffee {
   makeFilteredCoffee(): void {
     console.log('Making filtered coffee');
