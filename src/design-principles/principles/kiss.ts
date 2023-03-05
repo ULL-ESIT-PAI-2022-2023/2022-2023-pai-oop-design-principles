@@ -10,7 +10,7 @@
  * @desc Example of Keep It Simple Stupid.
  */
 
-function BadIsEven(input: number) {
+function badIsEven(input: number) {
   const NUMBER_REGEX = /[0123456789]/;
   const INPUT_AS_TEXT = String(input);
   for (const NUMBER of INPUT_AS_TEXT) {
@@ -27,7 +27,7 @@ function BadIsEven(input: number) {
   return isEven;
 }
 
-function GoodIsEven(input: number) {
+function goodIsEven(input: number) {
   if (Number.isNaN(input)) {
     throw new Error('Not a number.');
   }
